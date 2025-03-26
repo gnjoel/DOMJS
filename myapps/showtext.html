@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myText">This is some text that can be hidden or shown.</p>
+
+<button onclick="toggleText()">Show/Hide Text</button>
+
+<script>
+  function toggleText() {
+    let element = document.getElementById("myText");
+
+    if (element.style.display === "none") {
+      element.style.display = "block"; // show it
+    } else {
+      element.style.display = "none";  // hide it
+    }
+  }
+</script>
+
+</body>
+</html>
