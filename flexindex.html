@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1{
+        text-align: center;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+    }
+    body{
+        background-color: antiquewhite;
+       
+    }
+    .fcontainer{
+        display:flex;
+        flex-wrap: wrap;
+        gap:40px;
+       justify-content: space-between;
+
+    }
+    .item{
+        border: 1px solid lightblue;
+        padding:20px;
+        flex: 1 1  calc(33.333% - 20px);
+     
+    }
+</style>
+</head>
+
+<body>
+  <h1>FlexBox</h1>  
+  <div class="fcontainer">
+    <div class="item">Item 1 todady is suny</div>
+    <div class="item">Item 2 it is ok</div>
+    
+  </div>
+</body>
+</html>

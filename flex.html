@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row;
+          height: 100vh;
+            
+        }
+        .column{
+           flex:1;
+           box-sizing: border-box;
+           padding: 20px;
+        }
+       .left-column{
+        background-color: antiquewhite;
+       }
+       .right-column{
+        background-color: lightblue;
+       }
+       img{
+        width: 200px;
+        height: 120px;
+        float: left;
+       }
+       .column > img{
+        float:inline-end;
+       }
+       footer{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <h1>Flex Box</h1>
+    <div class="container">
+        <div class="column left-column">
+            <p>left column</p>
+            <p>Corporate governance is the direction and control of a company through a system of rules, processes and practices. The department oversees the performance of management, how a company is governed and to what extent by identifying what roles and positions have authority and accountability in decision-making. The guiding philosophy of corporate governance often focuses on these four concepts: people, purpose, process and performance.</p>
+        </div>
+            <div class="column right-column">
+                <p>Right column</p>
+                <p>Production departments or companies are the manufacturing branches of a business to produce products or delivery of services to customers. This could be a factory setting, where teams make airplane parts, for example, or the kitchen of a bakery where breads and sweets are made for a small business or as a supplier to another business.</p>
+            </div>
+            <div class="column right-column2">
+                <p>Right column</p>
+                <p>Production departments or companies are the manufacturing branches of a business to produce products or delivery of services to customers. This could be a factory setting, where teams make airplane parts, for example, or the kitchen of a bakery where breads and sweets are made for a small business or as a supplier to another business.</p>
+            </div>
+            <div class="column right-column1">
+                <p>Right column</p>
+                <p>Production departments or companies are the manufacturing branches of a business to produce products or delivery of services to customers. This could be a factory setting, where teams make airplane parts, for example, or the kitchen of a bakery where breads and sweets are made for a small business or as a supplier to another business.</p>
+            </div>
+           </div>
+           <footer>
+            &copy; 2025
+           </footer>
+</body>
+</html>
